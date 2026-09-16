@@ -30,6 +30,22 @@ RGB565 Output
 
 The implementation processes the image one row at a time using a circular line buffer, allowing it to operate without storing the entire image in memory. This models the streaming processing approach used when receiving image data from a camera sensor through DMA.
 
+## Repository Structure
+
+```text
+stm32-image-processor/
+├── image_processor.c
+├── pattern_generator.py
+├── rgb565_to_png.py
+├── test_images/
+│   ├── test_image.raw
+│   ├── simulated_display.raw
+│   └── final_result.png
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+
 ## Processing Pipeline
 
 ### Bayer Demosaicing
@@ -178,22 +194,6 @@ test_images/final_result.png
 ```
 
 The resulting PNG can then be opened to visually inspect the processed image.
-
-## Repository Structure
-
-```text
-stm32-image-processor/
-├── image_processor.c
-├── pattern_generator.py
-├── rgb565_to_png.py
-├── test_images/
-│   ├── test_image.raw
-│   ├── simulated_display.raw
-│   └── final_result.png
-├── README.md
-├── LICENSE
-└── .gitignore
-```
 
 ## Embedded Design Considerations
 
