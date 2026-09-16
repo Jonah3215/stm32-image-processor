@@ -17,7 +17,7 @@ Hue / Saturation / Contrast
     ↓
 Gamma Correction
     ↓
-Additional Processing
+Night Mode / Banding / Monochrome
     ↓
 RGB565 Output
 ```
