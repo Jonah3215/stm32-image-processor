@@ -8,23 +8,17 @@ The image processor takes a Bayer-pattern RAW image and processes it through a s
 
 ```text
 Bayer RAW
-   │
-   ▼
+    ↓
 Line Buffer / Demosaicing
-   │
-   ▼
+    ↓
 Color Correction Matrix
-   │
-   ▼
+    ↓
 Hue / Saturation / Contrast
-   │
-   ▼
+    ↓
 Gamma Correction
-   │
-   ▼
+    ↓
 Additional Processing
-   │
-   ▼
+    ↓
 RGB565 Output
 ```
 
