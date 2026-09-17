@@ -104,20 +104,15 @@ The included Python utilities provide a simple test pipeline:
 
 ```text
 pattern_generator.py
-        │
-        ▼
+        ↓
   test_image.raw
-        │
-        ▼
+        ↓
  image_processor.c
-        │
-        ▼
+        ↓
 simulated_display.raw
-        │
-        ▼
+        ↓
  rgb565_to_png.py
-        │
-        ▼
+        ↓
  final_result.png
 ```
 
