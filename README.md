@@ -1,6 +1,6 @@
 # STM32 Image Processor
 
-C implementation of a real-time image signal processing (ISP) pipeline for Bayer RAW image data, designed for resource-constrained embedded systems such as STM32 microcontrollers. The project also includes desktop simulation tools for generating test images and visualizing the processed RGB565 output. This implementation was  integrated into an embedded STM32-based digital camera. 
+C implementation of a real-time image signal processing (ISP) pipeline for Bayer RAW image data, designed for resource-constrained embedded systems such as STM32 microcontrollers. This implementation was  integrated into an embedded STM32-based digital camera. The project also includes desktop simulation tools for generating test images and visualizing the processed RGB565 output.
 
 ## Overview
 
