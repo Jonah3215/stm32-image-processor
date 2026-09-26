@@ -296,7 +296,7 @@ int main() {
             is_gr_row
         );
 
-        // --- EDGE PADDING / HARDWARE CHEAT ---
+        // Edge Padding
         if (row == 3) {
             // First valid row (Target 1). Output it twice to cover Row 0 and Row 1.
             fwrite(display_buffer, sizeof(uint16_t), WIDTH, out_file); 
